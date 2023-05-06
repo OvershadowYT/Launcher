@@ -1,9 +1,9 @@
 {
     "version": "1.0.0",
     "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
+        "clientId": "1102093367929745438",
+        "smallImageText": "Bloodlust Smp",
+        "smallImageKey": "small"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
