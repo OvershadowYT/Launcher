@@ -1,0 +1,656 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1102093367929745438",
+    "smallImageText": "Minecraft",
+    "smallImageKey": "large"
+  },
+  "servers": [
+    {
+      "id": "BloodlustSmp-1.19.2",
+      "name": "Bloodlust Smp",
+      "description": "The Bloodlust Smp with 1.19.2 (Forge v43.2.0)",
+      "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
+      "version": "1.0.0",
+      "address": "bloodlustsmp.mcserver.us",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "1102093367929745438",
+        "largeImageText": "Bloodlust Smp",
+        "largeImageKey": "small"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.2.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7377,
+            "MD5": "1b5bf558c8f69d9bb3d8530d047efda7",
+            "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.2.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "3241f316ae8dbfc8d60c1bcdb59db6d1",
+                "url": "https://bloodlust-smp.github.io/repo/versions/1.19.2-forge-43.2.0/1.19.2-forge-43.2.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112533,
+                "MD5": "5104faaa709f5de98eadb55f8e48312e",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16351,
+                "MD5": "a9ad6c69674b439a92760cacf86ee24b",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4985,
+                "MD5": "47279d60ef18470629644ed24e24caee",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.2.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2604372,
+                "MD5": "82875fd2ddaec6745d89c0a0c0bb4151",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/forge/1.19.2-43.2.0/forge-1.19.2-43.2.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.2.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5290671,
+                "MD5": "32277d4a51c601574a24a73d03197275",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/forge/1.19.2-43.2.0/forge-1.19.2-43.2.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://bloodlust-smp.github.io/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.3",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122176,
+                "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.3",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72716,
+                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.3",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52669,
+                "MD5": "f087bfb911ff93957e44860de3e73c46",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.3",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 85682,
+                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.3",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34276,
+                "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://bloodlust-smp.github.io/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://bloodlust-smp.github.io/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://bloodlust-smp.github.io/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://bloodlust-smp.github.io/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://bloodlust-smp.github.io/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.2.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261074,
+                "MD5": "e8a091124f85401089cc98da9ecbd50a",
+                "url": "https://bloodlust-smp.github.io/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.2.0/fmlloader-1.19.2-43.2.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46991,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.5.82@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 546196,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/architectury-6.5.82-forge.jar",
+            "MD5": "3ccf465c6327d961048a2c10ccc2acf5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:4.5.7@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314638,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/balm-forge-1.19.2-4.5.7.jar",
+            "MD5": "bf5a56610fa06d255fd644dff5d150ba"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:1.19.2-3.0.0.6@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37254,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/caelus-forge-1.19.2-3.0.0.6.jar",
+            "MD5": "918f8c78474edc74a7b489b803124492"
+          }
+        },
+        {
+          "id": "com.abdelaziz:canary:0.1.10@jar",
+          "name": "Canary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 565764,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/canary-mc1.19.2-0.1.10.jar",
+            "MD5": "91c6110ef1b22e60f6680fd2b599302b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.2.88@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1151677,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/cloth-config-8.2.88-forge.jar",
+            "MD5": "9ad6b6c3b72a0d23d53c7b761782082b"
+          }
+        },
+        {
+          "id": "com.tom:cpmsvcc:1.1.0@jar",
+          "name": "CPM SVC Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28158,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/cpm-svc-compat-1.1.0.jar",
+            "MD5": "5d07914fa16cc579223ba9b334333e02"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.4.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 278432,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.4.1.jar",
+            "MD5": "e8e9c74b092e40d8bb4e5bd5c5ddb0c4"
+          }
+        },
+        {
+          "id": "com.tom:cpm:0.6.7a@jar",
+          "name": "Customizable Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1988182,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/CustomPlayerModels-1.19-0.6.7a.jar",
+            "MD5": "a040bd23aba277a60a778c52b44b2daf"
+          }
+        },
+        {
+          "id": "com.infamous:dungeons_gear:1.19.2-5.0.5-beta@jar",
+          "name": "Dungeons Gear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3058081,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/dungeons_gear-1.19.2-5.0.5-beta.jar",
+            "MD5": "e90f0e9c4b5951326f6db6954b24562c"
+          }
+        },
+        {
+          "id": "com.infamous:dungeons_libraries:1.19.2-3.0.10-beta@jar",
+          "name": "Dungeons Libraries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 626957,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/dungeons_libraries-1.19.2-3.0.10-beta.jar",
+            "MD5": "50e01cbda31d8b147593252994d87821"
+          }
+        },
+        {
+          "id": "com.infamous:dungeons_mobs:1.19.2-4.0.8-beta@jar",
+          "name": "Dungeons Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12334261,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/dungeons_mobs-1.19.2-4.0.8-beta.jar",
+            "MD5": "cc05f64a80665fc108f2016e563570a7"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:elytraslot:6.1.1+1.19.2@jar",
+          "name": "Elytra Slot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56570,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/elytraslot-forge-6.1.1+1.19.2.jar",
+            "MD5": "cd436758cf138f236154846f8612992f"
+          }
+        },
+        {
+          "id": "com.abdelaziz.fastload.init:fastload:2.6.9+1.19.2@jar",
+          "name": "Fastload",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56766,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/Fastload-Reforged-2.6.9+1.19.2.jar",
+            "MD5": "58fecbf9b18c250976bc18368dd9f6ce"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116824,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.1.40@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2938383,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
+            "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "com.replaymod.core:replaymod:1.0.5@jar",
+          "name": "Replay Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10438110,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/replay-forge-1.19.2-1.0.5.jar",
+            "MD5": "13fc702e410898fb2d3db46024a0732b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.rei:roughlyenoughitems:9.1.595@jar",
+          "name": "Roughly Enough Items (REI)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2139202,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/RoughlyEnoughItems-9.1.595.jar",
+            "MD5": "48b7b23832145fda4afa8fdb1fc919f7"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.37@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2976410,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/optionalon/spark-1.10.37-forge.jar",
+            "MD5": "571b1510bd5f6d37f7fbfd2bede7f46f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:2.0.1.136@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96499,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/TerraBlender-forge-1.19.2-2.0.1.136.jar",
+            "MD5": "ed2fe6eb99f5d399db71e71f209de2ac"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.4.6@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7973045,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/voicechat-forge-1.19.2-2.4.6.jar",
+            "MD5": "1c22fc5ca5811822397c391a2b693832"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:11.4.0@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 401026,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/waystones-forge-1.19.2-11.4.0.jar",
+            "MD5": "abff4547530fdc2fa913c1bdb058c8ca"
+          }
+        }
+      ]
+    }
+  ]
+}
