@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1102093367929745438",
-    "smallImageText": "Minecraft",
-    "smallImageKey": "large"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
@@ -582,6 +582,16 @@
             "size": 2938383,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
             "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "potionstudios.byg:byg:2.0.0.13@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36453240,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.19.2/forgemods/required/Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar",
+            "MD5": "43087145240c9356bc4cacbe5a89decb"
           }
         },
         {
