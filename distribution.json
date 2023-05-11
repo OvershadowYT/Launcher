@@ -1,17 +1,17 @@
 {
-  "version": "2.0.0",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1102093367929745438",
-    "smallImageText": "Minecraft",
-    "smallImageKey": "large"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
       "id": "BloodlustSmp-1.18.2",
       "name": "BloodlustSmp (Minecraft 1.18.2)",
-      "description": "Bloodlust Smp with Minecraft 1.18.2 (Forge v40.2.2)",
-      "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
+      "description": "BloodlustSmp Running Minecraft 1.18.2 (Forge v40.2.2)",
+      "icon": null,
       "version": "2.0.0",
       "address": "bloodlustsmp.mcserver.us",
       "minecraftVersion": "1.18.2",
@@ -20,7 +20,7 @@
         "largeImageText": "Bloodlust Smp",
         "largeImageKey": "small"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -417,6 +417,16 @@
           }
         },
         {
+          "id": "net.blay09.mods:balm:3.2.6@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622515,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/balm-3.2.6.jar",
+            "MD5": "2c88b15b950317917fe64980267d579a"
+          }
+        },
+        {
           "id": "com.betterfpsdist:betterfpsdist:1.18.2-1.5@jar",
           "name": "Betterfpsdist mod",
           "type": "ForgeMod",
@@ -571,6 +581,16 @@
           }
         },
         {
+          "id": "com.tom:cpm:0.6.7a@jar",
+          "name": "Customizable Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1987719,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/CustomPlayerModels-1.18-0.6.7a.jar",
+            "MD5": "5e0f17cde30bc5757c2af08618d3dadf"
+          }
+        },
+        {
           "id": "com.infamous:dungeons_gear:1.18.2-4.0.2-beta@jar",
           "name": "Dungeons Gear",
           "type": "ForgeMod",
@@ -578,6 +598,16 @@
             "size": 3071241,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/dungeons_gear-1.18.2-4.0.2-beta.jar",
             "MD5": "e8364c8af7a92f23f8f6b8c6794e5b46"
+          }
+        },
+        {
+          "id": "com.infamous:dungeons_libraries:1.18.2-2.0.5-beta@jar",
+          "name": "Dungeons Libraries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 608545,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/dungeons_libraries-1.18.2-2.0.5-beta.jar",
+            "MD5": "dc7349f650aa8bf8756dc378851c3281"
           }
         },
         {
@@ -612,6 +642,20 @@
             "size": 10171,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/optionaloff/Entity_Collision_FPS_Fix-forge-1.18.2-1.0.0.jar",
             "MD5": "e777a96530c8945e787f41f27284c864"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59875,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/optionaloff/entityculling-forge-1.6.1-mc1.18.2.jar",
+            "MD5": "3145e53a4f8c39df16f1e53ab23c866b"
           },
           "required": {
             "value": false,
@@ -664,6 +708,40 @@
             "size": 124226,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/FPS-Monitor-1.18.2-1.2.1.jar",
             "MD5": "22e24ec60a89abb7d965afa28b77e155"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.57@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2927832,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/geckolib-forge-1.18-3.0.57.jar",
+            "MD5": "d491c30c6d9bd3f767bd545cbaf6502e"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.12-1.18.2-beta2@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21522188,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/iceandfire-2.1.12-1.18.2-beta2.jar",
+            "MD5": "64b24bdd8b9d2cae359753d64f46edfb"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.12@jar",
+          "name": "Inventory HUD+(Forge edition)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 213802,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/optionaloff/invhud.forge.1.18.2-3.4.12.jar",
+            "MD5": "a40853d9f516d465f6d042349d19f5f0"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -723,6 +801,20 @@
           }
         },
         {
+          "id": "yalter.mousetweaks:mousetweaks:2.21@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76344,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/optionaloff/MouseTweaks-forge-mc1.18-2.21.jar",
+            "MD5": "3c10dff8a4d7c157184f2224db8639a2"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "net.coderbot.iris:oculus:1.5.2@jar",
           "name": "Oculus",
           "type": "ForgeMod",
@@ -730,6 +822,16 @@
             "size": 3423952,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/oculus-1.5.2.jar",
             "MD5": "73d2d6ec774057749c629489c28734ed"
+          }
+        },
+        {
+          "id": "potionstudios.byg:byg:1.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36569914,
+            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/Oh_The_Biomes_You'll_Go-forge-1.18.2-1.4.7.jar",
+            "MD5": "de23edf4dc40bfb59254122676666fe3"
           }
         },
         {
