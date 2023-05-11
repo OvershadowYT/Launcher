@@ -11,8 +11,8 @@
       "id": "BloodlustSmp-1.18.2",
       "name": "Bloodlust Smp",
       "description": "BloodlustSmp Running Minecraft 1.18.2 (Forge v40.2.2)",
-      "icon": "https://raw.githubusercontent.com/VoidParr0t/Bloodlust/master/build/icon.png?token=GHSAT0AAAAAACCRGVMDHZADGG43WVDGLP4KZC5LXNA",
-      "version": "2.0.0",
+      "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
+      "version": "3.0.0",
       "address": "bloodlustsmp.mcserver.us",
       "minecraftVersion": "1.18.2",
       "discord": {
@@ -20,7 +20,7 @@
         "largeImageText": "Bloodlust Smp",
         "largeImageKey": "small"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
