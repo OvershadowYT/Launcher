@@ -9,8 +9,8 @@
   "servers": [
     {
       "id": "Bloodlust-1.16.5",
-      "name": "Bloodlust Smp",
-      "description": "Bloodlust Smp With Minecraft 1.16.5 (Forge v36.2.39)",
+      "name": "Bloodlust (Minecraft 1.16.5)",
+      "description": "Bloodlust Running Minecraft 1.16.5 (Forge v36.2.39)",
       "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
       "version": "1.0.0",
       "address": "bloodlustsmp.mcserver.us",
@@ -20,7 +20,7 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -581,6 +581,16 @@
           }
         },
         {
+          "id": "de.erdbeerbaerlp:dcintegration:2.4.7@jar",
+          "name": "Discord Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15551361,
+            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/dcintegration-forge-2.4.7-1.16.jar",
+            "MD5": "14de46bb5d8ccbdc476b65978dd82cc0"
+          }
+        },
+        {
           "id": "syric.dragonseeker:dragonseeker:1.1@jar",
           "name": "Dragonseeker",
           "type": "ForgeMod",
@@ -662,26 +672,6 @@
             "size": 8630,
             "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/FastLeafDecay-v25.2.jar",
             "MD5": "0d5806c3a73cf519264877db959823f3"
-          }
-        },
-        {
-          "id": "malte0811.ferritecore:ferritecore:2.1.1@jar",
-          "name": "Ferrite Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 108557,
-            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/ferritecore-2.1.1-forge.jar",
-            "MD5": "6a96a36de00e5d8e9bf2e87634d13125"
-          }
-        },
-        {
-          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
-          "name": "Flywheel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 420923,
-            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
-            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
           }
         },
         {
@@ -861,13 +851,13 @@
           }
         },
         {
-          "id": "net.coderbot.iris:oculus:1.4.5@jar",
-          "name": "Oculus",
+          "id": "dev.itsmeow:quickteleports:1.16.5-1.2.0@jar",
+          "name": "QuickTeleports",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3848984,
-            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/oculus-1.4.5.jar",
-            "MD5": "376c827a56a0b2bdf24ab726159cf3b0"
+            "size": 25827,
+            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/quickteleports-1.16.5-1.2.0-forge.jar",
+            "MD5": "702c79c7a4ca387e6427e6261acc6f54"
           }
         },
         {
@@ -878,16 +868,6 @@
             "size": 104388,
             "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/radon-0.8.0a.jar",
             "MD5": "d8fc7bcb28eae4aef5c65306719ba992"
-          }
-        },
-        {
-          "id": "technicianlp.reauth:reauth:4.0.7@jar",
-          "name": "ReAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 169698,
-            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/required/ReAuth-1.16-Forge-4.0.7.jar",
-            "MD5": "7270e3ab226b205dedf9de05321353c9"
           }
         },
         {
@@ -940,20 +920,6 @@
             "size": 84744,
             "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/optionaloff/smoothboot-forge-1.16.4-1.2.2.jar",
             "MD5": "104ca76ce6b18b90fbfa4c58b3bbdfc2"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.smoothchunk:smoothchunk:2.0@jar",
-          "name": "Smoothchunk mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14157,
-            "url": "https://bloodlust-smp.github.io/servers/Bloodlust-1.16.5/forgemods/optionaloff/smoothchunk1.16.5-2.0.jar",
-            "MD5": "42a45cfea269961a3044c9b0ac834626"
           },
           "required": {
             "value": false,
