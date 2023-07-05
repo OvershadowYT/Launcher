@@ -1806,16 +1806,6 @@
           }
         },
         {
-          "id": "com.replaymod.core:replaymod:1.0.5@jar",
-          "name": "Replay Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10438110,
-            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/replay-forge-1.19.2-1.0.5.jar",
-            "MD5": "13fc702e410898fb2d3db46024a0732b"
-          }
-        },
-        {
           "id": "vice.rubidium_extras:rubidium_extras:1.18.2_v1.3.2@jar",
           "name": "Rubidium Extras",
           "type": "ForgeMod",
