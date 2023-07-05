@@ -9,11 +9,11 @@
   "servers": [
     {
       "id": "Bloodlust-1.16.5",
-      "name": "Bloodlust Test",
+      "name": "Bloodlust Dev",
       "description": "Bloodlust Running Minecraft 1.16.5 (Forge v36.2.39)",
       "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
       "version": "1.0.0",
-      "address": "BloodlustDev.ploudos.me",
+      "address": "localhost:25565",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -1003,9 +1003,9 @@
       ]
     },
     {
-      "id": "BloodlustSmp",
-      "name": "Bloodlust Smp",
-      "description": "Bloodlust Smp Running Minecraft 1.18.2 (Forge v40.2.2)",
+      "id": "BloodlustSmp-1.18.2",
+      "name": "Bloodlust SMP",
+      "description": "BloodlustSmp Running Minecraft 1.18.2 (Forge v40.2.2)",
       "icon": "https://raw.githubusercontent.com/VoidParr0t/Launcher/master/build/icon.png",
       "version": "1.0.0",
       "address": "bloodlustsmp.mcserver.us",
@@ -1783,16 +1783,6 @@
             "size": 76344,
             "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/MouseTweaks-forge-mc1.18-2.21.jar",
             "MD5": "3c10dff8a4d7c157184f2224db8639a2"
-          }
-        },
-        {
-          "id": "net.coderbot.iris:oculus:1.5.2@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3423952,
-            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/oculus-1.5.2.jar",
-            "MD5": "73d2d6ec774057749c629489c28734ed"
           }
         },
         {
