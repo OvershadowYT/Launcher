@@ -561,16 +561,6 @@
           }
         },
         {
-          "id": "com.tom:cpmsvcc:1.1.0@jar",
-          "name": "CPM SVC Compat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 28158,
-            "url": "https://bloodlust-smp.github.io/servers/BloodlustSmp-1.18.2/forgemods/required/cpm-svc-compat-1.1.0.jar",
-            "MD5": "5d07914fa16cc579223ba9b334333e02"
-          }
-        },
-        {
           "id": "top.theillusivec4:curios:1.18.2-5.0.9.0@jar",
           "name": "Curios API",
           "type": "ForgeMod",
